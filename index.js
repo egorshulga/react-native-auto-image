@@ -1,3 +1,3 @@
-import Image from './AutoImageWithErrorFallback';
+import Image from './autoImageWithErrorFallback';
 
 export default Image;

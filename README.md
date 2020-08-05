@@ -1,12 +1,12 @@
-# react-native-auto-crossAxisSize-image
+# react-native-auto-image
 
-Initialized by [vivaxy/gt-npm-package](https://github.com/vivaxy/gt-npm-package)
+Inspired by [vivaxy/react-native-auto-height-image](https://github.com/vivaxy/react-native-auto-height-image)
 
-[![NPM Version](http://img.shields.io/npm/v/react-native-auto-crossAxisSize-image.svg?style=flat-square)](https://www.npmjs.com/package/react-native-auto-crossAxisSize-image)
-[![NPM Downloads](https://img.shields.io/npm/dt/react-native-auto-crossAxisSize-image.svg?style=flat-square)](https://www.npmjs.com/package/react-native-auto-crossAxisSize-image)
-[![MIT License](https://img.shields.io/npm/l/react-native-auto-crossAxisSize-image.svg?style=flat-square)](./LICENSE)
+[![NPM Version](http://img.shields.io/npm/v/react-native-auto-image.svg?style=flat-square)](https://www.npmjs.com/package/react-native-auto-image)
+[![NPM Downloads](https://img.shields.io/npm/dt/react-native-auto-image.svg?style=flat-square)](https://www.npmjs.com/package/react-native-auto-image)
+[![MIT License](https://img.shields.io/npm/l/react-native-auto-image.svg?style=flat-square)](./LICENSE)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
-[![Financial Contributors on Open Collective](https://opencollective.com/react-native-auto-crossAxisSize-image/all/badge.svg?label=financial+contributors)](https://opencollective.com/react-native-auto-crossAxisSize-image)
+[![Financial Contributors on Open Collective](https://opencollective.com/react-native-auto-image/all/badge.svg?label=financial+contributors)](https://opencollective.com/react-native-auto-image)
 
 This component provides you a simple way to load a remote image and automatically set `Image` crossAxisSize to the image dimension which fits the provided mainAxisSize.
 
@@ -14,9 +14,9 @@ ReactNative `Image` component needs users to set both `mainAxisSize` and `crossA
 
 ## Installation
 
-`yarn add react-native-auto-crossAxisSize-image`
+`yarn add react-native-auto-image`
 
-`npm install react-native-auto-crossAxisSize-image`
+`npm install react-native-auto-image`
 
 ## Usage
 
@@ -24,7 +24,7 @@ Use local or remote files:
 
 ```js
 import React, { Component } from 'react';
-import AutoImage from 'react-native-auto-crossAxisSize-image';
+import AutoImage from 'react-native-auto-image';
 
 import image from 'gallifrey-falls.png';
 
@@ -35,11 +35,13 @@ export default class Demo extends Component {
 
         <AutoImage
           mainAxisSize={100}
+          mainAxis='horizontal'
           source={image}
         />
 
         <AutoImage
           mainAxisSize={100}
+          mainAxis='vertical'
           source={{uri: 'http://placehold.it/350x150'}}
         />
 
@@ -53,7 +55,7 @@ You can even specify fallback images for when the source fails to load:
 
 ```js
 import React, { Component } from 'react';
-import AutoImage from 'react-native-auto-crossAxisSize-image';
+import AutoImage from 'react-native-auto-image';
 
 import image from 'gallifrey-falls.png';
 
@@ -75,6 +77,7 @@ export default class Demo extends Component {
 | name               | type             | isRequired    | default           | description                                                           |
 | ---                | ---              | ---           | ---               | ---                                                                   |
 | `mainAxisSize`            | number           | ✔             | N/A               | image mainAxisSize to fit                                                    |
+| `mainAxis`            | 'horizontal'|'vertical'           | ✔             | N/A               | main axis                                                    |
 | `maxCrossAxisSize`            | number           | ✖             | `Infinity`               | image max crossAxisSize                                                    |
 | `source`           | number or object | ✔             | N/A               | local (i.e. require/import) or remote image ({uri: '...'})            |
 | `fallbackSource`   | number or object | ✖             | N/A               | local (i.e. require/import) or remote image ({uri: '...'})            |
@@ -94,30 +97,3 @@ Other image props except `resizeMode` are accepted.
 ## Licence
 
 [MIT](./LICENSE)
-
-## Contributors
-
-### Code Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/vivaxy/react-native-auto-crossAxisSize-image/graphs/contributors"><img src="https://opencollective.com/react-native-auto-crossAxisSize-image/contributors.svg?mainAxisSize=890&button=false" /></a>
-
-### Financial Contributors
-
-Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/react-native-auto-crossAxisSize-image/contribute)]
-
-#### Individuals
-
-<a href="https://opencollective.com/react-native-auto-crossAxisSize-image"><img src="https://opencollective.com/react-native-auto-crossAxisSize-image/individuals.svg?mainAxisSize=890"></a>
-
-#### Organizations
-
-Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/react-native-auto-crossAxisSize-image/contribute)]
-
-<a href="https://opencollective.com/react-native-auto-crossAxisSize-image"><img src="https://opencollective.com/react-native-auto-crossAxisSize-image/organization.svg?mainAxisSize=890"></a>
-
-## Related Projects
-
-- [react-native-scalable-image](https://github.com/ihor/react-native-scalable-image)
-- [react-native-fit-image](https://github.com/huiseoul/react-native-fit-image)
-- [react-native-responsive-image-view](https://github.com/wKovacs64/react-native-responsive-image-view)

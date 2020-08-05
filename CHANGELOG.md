@@ -4,71 +4,71 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [3.2.3](https://github.com/egorshulga/react-native-auto-image/compare/v3.2.2...v3.2.3) (2020-08-05)
 
-### [3.2.2](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v3.2.1...v3.2.2) (2020-07-25)
+### [3.2.2](https://github.com/vivaxy/react-native-auto-image/compare/v3.2.1...v3.2.2) (2020-07-25)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency expo to v38 ([6b24bd8](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/6b24bd8c1a2f1bf7fafcb0ba3c7b558318d7d152))
-* **deps:** update dependency react-native-web to ^0.13.0 ([82d6270](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/82d6270e7e45855864fcc4fcf1ec62ee97695300))
+* **deps:** update dependency expo to v38 ([6b24bd8](https://github.com/vivaxy/react-native-auto-image/commit/6b24bd8c1a2f1bf7fafcb0ba3c7b558318d7d152))
+* **deps:** update dependency react-native-web to ^0.13.0 ([82d6270](https://github.com/vivaxy/react-native-auto-image/commit/82d6270e7e45855864fcc4fcf1ec62ee97695300))
 
-### [3.2.1](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v3.2.0...v3.2.1) (2020-06-08)
+### [3.2.1](https://github.com/vivaxy/react-native-auto-image/compare/v3.2.0...v3.2.1) (2020-06-08)
 
-## [3.2.0](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v3.1.3...v3.2.0) (2020-05-27)
+## [3.2.0](https://github.com/vivaxy/react-native-auto-image/compare/v3.1.3...v3.2.0) (2020-05-27)
 
 
 ### Features
 
-* :sparkles: support `maxCrossAxisSize` prop, reuse image cache on initial rendering to optimize the performance ([e5055c8](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/e5055c8e97a800581d7049140392cdedad035f48))
+* :sparkles: support `maxCrossAxisSize` prop, reuse image cache on initial rendering to optimize the performance ([e5055c8](https://github.com/vivaxy/react-native-auto-image/commit/e5055c8e97a800581d7049140392cdedad035f48))
 
-### [3.1.3](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v3.1.2...v3.1.3) (2020-05-07)
-
-
-### Bug Fixes
-
-* :bug: fix `Can't perform a React state update on an unmounted component.` ([035e6a8](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/035e6a86ba39daf3c16d75d7467f925d94537023)), closes [#44](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/issues/44)
-
-### [3.1.2](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v3.1.1...v3.1.2) (2020-04-18)
+### [3.1.3](https://github.com/vivaxy/react-native-auto-image/compare/v3.1.2...v3.1.3) (2020-05-07)
 
 
 ### Bug Fixes
 
-* add missing symbol ([7498b82](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/7498b823bb8ac8a0f1f509fb0f083a61e57e192d))
+* :bug: fix `Can't perform a React state update on an unmounted component.` ([035e6a8](https://github.com/vivaxy/react-native-auto-image/commit/035e6a86ba39daf3c16d75d7467f925d94537023)), closes [#44](https://github.com/vivaxy/react-native-auto-image/issues/44)
 
-### [3.1.1](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v3.1.0...v3.1.1) (2020-04-04)
+### [3.1.2](https://github.com/vivaxy/react-native-auto-image/compare/v3.1.1...v3.1.2) (2020-04-18)
 
 
 ### Bug Fixes
 
-* android crash at imagePolyfill ([21dc084](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/21dc0841c452a4178202db1beedfc7e2e72d7665))
+* add missing symbol ([7498b82](https://github.com/vivaxy/react-native-auto-image/commit/7498b823bb8ac8a0f1f509fb0f083a61e57e192d))
 
-## [3.1.0](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v3.0.0...v3.1.0) (2020-03-31)
+### [3.1.1](https://github.com/vivaxy/react-native-auto-image/compare/v3.1.0...v3.1.1) (2020-04-04)
+
+
+### Bug Fixes
+
+* android crash at imagePolyfill ([21dc084](https://github.com/vivaxy/react-native-auto-image/commit/21dc0841c452a4178202db1beedfc7e2e72d7665))
+
+## [3.1.0](https://github.com/vivaxy/react-native-auto-image/compare/v3.0.0...v3.1.0) (2020-03-31)
 
 
 ### Features
 
-* animated image support ([97ff786](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/97ff786c40143599228524c1b12d4e29ba496e57))
+* animated image support ([97ff786](https://github.com/vivaxy/react-native-auto-image/commit/97ff786c40143599228524c1b12d4e29ba496e57))
 
-## [3.0.0](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v2.0.0...v3.0.0) (2020-01-17)
+## [3.0.0](https://github.com/vivaxy/react-native-auto-image/compare/v2.0.0...v3.0.0) (2020-01-17)
 
 
 ### ⚠ BREAKING CHANGES
 
 * **changelog:** Drop support for react before 16.8 and react-native before 0.59
 
-* **changelog:** :memo: commit a breaking change ([03c9b81](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/03c9b81))
+* **changelog:** :memo: commit a breaking change ([03c9b81](https://github.com/vivaxy/react-native-auto-image/commit/03c9b81))
 
 
 ### Bug Fixes
 
-* fix for fallback images ([d825375](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/d825375))
+* fix for fallback images ([d825375](https://github.com/vivaxy/react-native-auto-image/commit/d825375))
 
 
 ### Features
 
-* **deps:** bumped React to ^16.8 & React Native to ^0.59.0 ([24edbc2](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/24edbc2))
+* **deps:** bumped React to ^16.8 & React Native to ^0.59.0 ([24edbc2](https://github.com/vivaxy/react-native-auto-image/commit/24edbc2))
 
-## [2.0.0](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v1.1.3...v2.0.0) (2020-01-09)
+## [2.0.0](https://github.com/vivaxy/react-native-auto-image/compare/v1.1.3...v2.0.0) (2020-01-09)
 
 
 ### ⚠ BREAKING CHANGES
@@ -77,55 +77,55 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* incorporated imagepolyfill in codebase, removed from deps ([bfdca6f](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/bfdca6f))
+* incorporated imagepolyfill in codebase, removed from deps ([bfdca6f](https://github.com/vivaxy/react-native-auto-image/commit/bfdca6f))
 
 <a name="1.1.3"></a>
-## [1.1.3](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v1.1.2...v1.1.3) (2019-10-16)
+## [1.1.3](https://github.com/vivaxy/react-native-auto-image/compare/v1.1.2...v1.1.3) (2019-10-16)
 
 
 
 <a name="1.1.1"></a>
-## [1.1.1](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v1.1.0...v1.1.1) (2019-08-13)
+## [1.1.1](https://github.com/vivaxy/react-native-auto-image/compare/v1.1.0...v1.1.1) (2019-08-13)
 
 
 ### Reverts
 
-* **open collective:** :rewind: revert changes to package.json ([37f3b17](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/37f3b17))
+* **open collective:** :rewind: revert changes to package.json ([37f3b17](https://github.com/vivaxy/react-native-auto-image/commit/37f3b17))
 
 
 
 <a name="1.1.0"></a>
-# [1.1.0](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v1.0.5...v1.1.0) (2019-03-07)
+# [1.1.0](https://github.com/vivaxy/react-native-auto-image/compare/v1.0.5...v1.1.0) (2019-03-07)
 
 
 ### Features
 
-* :sparkles:updateImageCrossAxisSize with safe check ([a2c9275](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/a2c9275))
+* :sparkles:updateImageCrossAxisSize with safe check ([a2c9275](https://github.com/vivaxy/react-native-auto-image/commit/a2c9275))
 
 
 
 <a name="1.0.5"></a>
-## [1.0.5](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v1.0.4...v1.0.5) (2018-10-22)
+## [1.0.5](https://github.com/vivaxy/react-native-auto-image/compare/v1.0.4...v1.0.5) (2018-10-22)
 
 
 ### Bug Fixes
 
-* :bug:Fix updating the image size after change of the source ([cfe1566](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/cfe1566))
+* :bug:Fix updating the image size after change of the source ([cfe1566](https://github.com/vivaxy/react-native-auto-image/commit/cfe1566))
 
 
 
 <a name="1.0.4"></a>
-## [1.0.4](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v1.0.3...v1.0.4) (2018-10-09)
+## [1.0.4](https://github.com/vivaxy/react-native-auto-image/compare/v1.0.3...v1.0.4) (2018-10-09)
 
 
 ### Bug Fixes
 
-* :bug:Remove trailing comma ([89713a5](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/89713a5))
+* :bug:Remove trailing comma ([89713a5](https://github.com/vivaxy/react-native-auto-image/commit/89713a5))
 
 
 
 <a name="1.0.3"></a>
-## [1.0.3](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v1.0.2...v1.0.3) (2018-10-09)
+## [1.0.3](https://github.com/vivaxy/react-native-auto-image/compare/v1.0.2...v1.0.3) (2018-10-09)
 
 
 ### Features
@@ -135,7 +135,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="1.0.2"></a>
-## [1.0.2](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v1.0.1...v1.0.2) (2018-10-07)
+## [1.0.2](https://github.com/vivaxy/react-native-auto-image/compare/v1.0.1...v1.0.2) (2018-10-07)
 
 
 ### Features
@@ -145,7 +145,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="1.0.1"></a>
-## [1.0.1](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v1.0.0...v1.0.1) (2018-07-13)
+## [1.0.1](https://github.com/vivaxy/react-native-auto-image/compare/v1.0.0...v1.0.1) (2018-07-13)
 
 
 ### Features
@@ -155,7 +155,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="1.0.0"></a>
-# [1.0.0](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v0.4.0...v1.0.0) (2018-01-18)
+# [1.0.0](https://github.com/vivaxy/react-native-auto-image/compare/v0.4.0...v1.0.0) (2018-01-18)
 
 
 ### Features
@@ -170,67 +170,67 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="0.4.0"></a>
-# [0.4.0](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v0.3.4...v0.4.0) (2018-01-16)
+# [0.4.0](https://github.com/vivaxy/react-native-auto-image/compare/v0.3.4...v0.4.0) (2018-01-16)
 
 
 ### Features
 
-* **onError:** :sparkles:Propagate errors to onError ([4d9a14d](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/4d9a14d))
+* **onError:** :sparkles:Propagate errors to onError ([4d9a14d](https://github.com/vivaxy/react-native-auto-image/commit/4d9a14d))
 
 
 
 <a name="0.3.4"></a>
-## [0.3.4](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v0.3.3...v0.3.4) (2017-12-20)
+## [0.3.4](https://github.com/vivaxy/react-native-auto-image/compare/v0.3.3...v0.3.4) (2017-12-20)
 
 
 ### Features
 
-* Update image size on mainAxisSize change. ([7a09dc0](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/7a09dc0))
+* Update image size on mainAxisSize change. ([7a09dc0](https://github.com/vivaxy/react-native-auto-image/commit/7a09dc0))
 
 
 
 <a name="0.3.3"></a>
-## [0.3.3](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v0.3.2...v0.3.3) (2017-08-22)
+## [0.3.3](https://github.com/vivaxy/react-native-auto-image/compare/v0.3.2...v0.3.3) (2017-08-22)
 
 
 ### Features
 
-* Optimize error handling from `Image.getSize`. ([80158e7](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/80158e7))
+* Optimize error handling from `Image.getSize`. ([80158e7](https://github.com/vivaxy/react-native-auto-image/commit/80158e7))
 
 
 
 <a name="0.3.2"></a>
-## [0.3.2](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v0.3.1...v0.3.2) (2017-08-22)
+## [0.3.2](https://github.com/vivaxy/react-native-auto-image/compare/v0.3.1...v0.3.2) (2017-08-22)
 
 
 ### Bug Fixes
 
-* **rejection:** :bug:Fix `Possible Unhandled Promise Rejection` warning. ([02441ba](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/02441ba)), closes [#4](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/issues/4)
+* **rejection:** :bug:Fix `Possible Unhandled Promise Rejection` warning. ([02441ba](https://github.com/vivaxy/react-native-auto-image/commit/02441ba)), closes [#4](https://github.com/vivaxy/react-native-auto-image/issues/4)
 
 
 
 <a name="0.3.1"></a>
-## [0.3.1](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v0.3.0...v0.3.1) (2017-08-08)
+## [0.3.1](https://github.com/vivaxy/react-native-auto-image/compare/v0.3.0...v0.3.1) (2017-08-08)
 
 
 ### Bug Fixes
 
-* :bug:Fixed syntax error in index.js. ([c384cd6](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/c384cd6))
+* :bug:Fixed syntax error in index.js. ([c384cd6](https://github.com/vivaxy/react-native-auto-image/commit/c384cd6))
 
 
 
 <a name="0.3.0"></a>
-# [0.3.0](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v0.2.2...v0.3.0) (2017-07-31)
+# [0.3.0](https://github.com/vivaxy/react-native-auto-image/compare/v0.2.2...v0.3.0) (2017-07-31)
 
 
 ### Features
 
-* **onCrossAxisSizeChange:** :sparkles:Provides a new api to extract the calculated crossAxisSize. ([18c86e6](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/18c86e6))
+* **onCrossAxisSizeChange:** :sparkles:Provides a new api to extract the calculated crossAxisSize. ([18c86e6](https://github.com/vivaxy/react-native-auto-image/commit/18c86e6))
 
 
 
 <a name="0.2.2"></a>
-## [0.2.2](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v0.2.1...v0.2.2) (2017-05-27)
+## [0.2.2](https://github.com/vivaxy/react-native-auto-image/compare/v0.2.1...v0.2.2) (2017-05-27)
 
 
 ### Documents
@@ -240,22 +240,22 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="0.2.1"></a>
-## [0.2.1](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v0.2.0...v0.2.1) (2017-04-24)
+## [0.2.1](https://github.com/vivaxy/react-native-auto-image/compare/v0.2.0...v0.2.1) (2017-04-24)
 
 
 ### Bug Fixes
 
-* :bug:Fix hasLoaded logic ([1b8264c](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/1b8264c))
+* :bug:Fix hasLoaded logic ([1b8264c](https://github.com/vivaxy/react-native-auto-image/commit/1b8264c))
 
 
 
 <a name="0.2.0"></a>
-# [0.2.0](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/compare/v0.1.0...v0.2.0) (2017-04-24)
+# [0.2.0](https://github.com/vivaxy/react-native-auto-image/compare/v0.1.0...v0.2.0) (2017-04-24)
 
 
 ### Features
 
-* :sparkles:Support all image props ([4088b73](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/4088b73))
+* :sparkles:Support all image props ([4088b73](https://github.com/vivaxy/react-native-auto-image/commit/4088b73))
 
 
 
@@ -265,4 +265,4 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* :tada:First Commit ([243c394](https://github.com/vivaxy/react-native-auto-crossAxisSize-image/commit/243c394))
+* :tada:First Commit ([243c394](https://github.com/vivaxy/react-native-auto-image/commit/243c394))
