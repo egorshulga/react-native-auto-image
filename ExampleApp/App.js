@@ -1,60 +1,68 @@
 import React, { Component } from 'react';
-import AutoHeightImage from 'react-native-auto-height-image';
+import AutoImage from 'react-native-auto-image';
 import { StyleSheet, Text, ScrollView, TextInput } from 'react-native';
 
 import image from './assets/image.png';
 
 export default class App extends Component {
   state = {
-    dynamicWidth: 200
+    dynamicMainAxisSize: 200
   };
 
   handleTextInputChange = (text) => {
-    const width = Number(text);
-    if (!Number.isNaN(width)) {
-      this.setState({ dynamicWidth: width });
+    const mainAxisSize = Number(text);
+    if (!Number.isNaN(mainAxisSize)) {
+      this.setState({ dynamicMainAxisSize: mainAxisSize });
     }
   };
 
   render() {
-    const { dynamicWidth } = this.state;
+    const { dynamicMainAxisSize } = this.state;
     return (
       <ScrollView
         style={styles.scrollViewContainer}
         contentContainerStyle={styles.scrollViewContentContainer}
       >
-        <TextInput
-          value={String(dynamicWidth)}
+        {/* <TextInput
+          value={String(dynamicMainAxisSize)}
           keyboardType="numeric"
           style={styles.textInputStyle}
           onChangeText={this.handleTextInputChange}
         />
         <Text>Basic example</Text>
-        <AutoHeightImage
-          width={100}
+        <AutoImage
+          mainAxisSize={100}
           source={{ uri: 'http://placehold.it/350x150' }}
         />
+        <Text>Basic example (vertical)</Text>
+        <AutoImage
+          mainAxisSize={100}
+          mainAxis='vertical'
+          source={{ uri: 'http://placehold.it/350x150' }}
+        /> */}
         <Text>Basic example with local image</Text>
-        <AutoHeightImage width={100} source={image} />
-        <Text>Basic example with dynamic width</Text>
-        <AutoHeightImage
-          width={dynamicWidth}
-          maxHeight={300}
+        <AutoImage mainAxisSize={100} source={image} />
+        {/* <Text>Basic example with local image (vertical)</Text>
+        <AutoImage mainAxisSize={100} mainAxis='vertical' source={image} /> */}
+        {/* <Text>Basic example with dynamic mainAxisSize</Text>
+        <AutoImage
+          mainAxisSize={dynamicMainAxisSize}
+          maxCrossAxisSize={300}
           source={{ uri: 'http://placehold.it/350x150' }}
         />
-        <Text>Basic example with dynamic width and local image</Text>
-        <AutoHeightImage width={dynamicWidth} source={image} />
+        <Text>Basic example with dynamic mainAxisSize and local image</Text>
+        <AutoImage mainAxisSize={dynamicMainAxisSize} source={image} />
         <Text>Wrong image</Text>
-        <AutoHeightImage
-          width={100}
+        <AutoImage
+          mainAxisSize={100}
           source={{ uri: 'https://vivaxy.github.io/404' }}
           onError={(error) => {
             console.log('----- onError', error);
           }}
         />
         <Text>Wrong image with fallback</Text>
-        <AutoHeightImage
-          width={100}
+        <AutoImage
+          mainAxisSize={100}
           source={{ uri: 'https://vivaxy.github.io/404' }}
           fallbackSource={{ uri: 'http://placehold.it/350x150' }}
           onError={(error) => {
@@ -62,14 +70,14 @@ export default class App extends Component {
           }}
         />
         <Text>Wrong image with local fallback</Text>
-        <AutoHeightImage
-          width={100}
+        <AutoImage
+          mainAxisSize={100}
           source={{ uri: 'https://vivaxy.github.io/404' }}
           fallbackSource={image}
           onError={(error) => {
             console.log('----- onError', error);
           }}
-        />
+        /> */}
       </ScrollView>
     );
   }
@@ -86,10 +94,10 @@ const styles = StyleSheet.create({
     paddingTop: 100
   },
   textInputStyle: {
-    width: 300,
-    height: 30,
+    mainAxisSize: 300,
+    crossAxisSize: 30,
     borderStyle: 'solid',
     borderColor: '#eee',
-    borderWidth: 1
+    borderMainAxisSize: 1
   }
 });

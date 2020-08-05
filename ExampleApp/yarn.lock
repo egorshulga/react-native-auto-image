@@ -2167,9 +2167,9 @@ cli-cursor@^2.1.0:
   dependencies:
     restore-cursor "^2.0.0"
 
-cli-width@^2.0.0:
+cli-mainAxisSize@^2.0.0:
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/cli-width/-/cli-width-2.2.0.tgz#ff19ede8a9a5e579324147b0c11f0fbcbabed639"
+  resolved "https://registry.yarnpkg.com/cli-mainAxisSize/-/cli-mainAxisSize-2.2.0.tgz#ff19ede8a9a5e579324147b0c11f0fbcbabed639"
   integrity sha1-/xnt6Kml5XkyQUewwR8PvLq+1jk=
 
 cliui@^3.2.0:
@@ -2177,7 +2177,7 @@ cliui@^3.2.0:
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-3.2.0.tgz#120601537a916d29940f934da3b48d585a39213d"
   integrity sha1-EgYBU3qRbSmUD5NNo7SNWFo5IT0=
   dependencies:
-    string-width "^1.0.1"
+    string-mainAxisSize "^1.0.1"
     strip-ansi "^3.0.1"
     wrap-ansi "^2.0.0"
 
@@ -3210,7 +3210,7 @@ inquirer@^3.0.6:
     ansi-escapes "^3.0.0"
     chalk "^2.0.0"
     cli-cursor "^2.1.0"
-    cli-width "^2.0.0"
+    cli-mainAxisSize "^2.0.0"
     external-editor "^2.0.4"
     figures "^2.0.0"
     lodash "^4.3.0"
@@ -3218,7 +3218,7 @@ inquirer@^3.0.6:
     run-async "^2.2.0"
     rx-lite "^4.0.8"
     rx-lite-aggregates "^4.0.8"
-    string-width "^2.1.0"
+    string-mainAxisSize "^2.1.0"
     strip-ansi "^4.0.0"
     through "^2.3.6"
 
@@ -3324,16 +3324,16 @@ is-extglob@^1.0.0:
   resolved "https://registry.yarnpkg.com/is-extglob/-/is-extglob-1.0.0.tgz#ac468177c4943405a092fc8f29760c6ffc6206c0"
   integrity sha1-rEaBd8SUNAWgkvyPKXYMb/xiBsA=
 
-is-fullwidth-code-point@^1.0.0:
+is-fullmainAxisSize-code-point@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz#ef9e31386f031a7f0d643af82fde50c457ef00cb"
+  resolved "https://registry.yarnpkg.com/is-fullmainAxisSize-code-point/-/is-fullmainAxisSize-code-point-1.0.0.tgz#ef9e31386f031a7f0d643af82fde50c457ef00cb"
   integrity sha1-754xOG8DGn8NZDr4L95QxFfvAMs=
   dependencies:
     number-is-nan "^1.0.0"
 
-is-fullwidth-code-point@^2.0.0:
+is-fullmainAxisSize-code-point@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz#a3b30a5c4f199183167aaab93beefae3ddfb654f"
+  resolved "https://registry.yarnpkg.com/is-fullmainAxisSize-code-point/-/is-fullmainAxisSize-code-point-2.0.0.tgz#a3b30a5c4f199183167aaab93beefae3ddfb654f"
   integrity sha1-o7MKXE8ZkYMWeqq5O+764937ZU8=
 
 is-glob@^2.0.0, is-glob@^2.0.1:
@@ -4746,7 +4746,7 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
-"react-native-auto-height-image@file:..":
+"react-native-auto-crossAxisSize-image@file:..":
   version "3.2.1"
   dependencies:
     prop-types "^15.7.2"
@@ -5397,21 +5397,21 @@ stream-buffers@~2.2.0:
   resolved "https://registry.yarnpkg.com/stream-buffers/-/stream-buffers-2.2.0.tgz#91d5f5130d1cef96dcfa7f726945188741d09ee4"
   integrity sha1-kdX1Ew0c75bc+n9yaUUYh0HQnuQ=
 
-string-width@^1.0.1:
+string-mainAxisSize@^1.0.1:
   version "1.0.2"
-  resolved "https://registry.yarnpkg.com/string-width/-/string-width-1.0.2.tgz#118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3"
+  resolved "https://registry.yarnpkg.com/string-mainAxisSize/-/string-mainAxisSize-1.0.2.tgz#118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3"
   integrity sha1-EYvfW4zcUaKn5w0hHgfisLmxB9M=
   dependencies:
     code-point-at "^1.0.0"
-    is-fullwidth-code-point "^1.0.0"
+    is-fullmainAxisSize-code-point "^1.0.0"
     strip-ansi "^3.0.0"
 
-string-width@^2.0.0, string-width@^2.1.0:
+string-mainAxisSize@^2.0.0, string-mainAxisSize@^2.1.0:
   version "2.1.1"
-  resolved "https://registry.yarnpkg.com/string-width/-/string-width-2.1.1.tgz#ab93f27a8dc13d28cac815c462143a6d9012ae9e"
+  resolved "https://registry.yarnpkg.com/string-mainAxisSize/-/string-mainAxisSize-2.1.1.tgz#ab93f27a8dc13d28cac815c462143a6d9012ae9e"
   integrity sha512-nOqH59deCq9SRHlxq1Aw85Jnt4w6KvLKqWVik6oA9ZklXLNIOlqg4F2yrT1MVaTjAqvVwdfeZ7w7aCvJD7ugkw==
   dependencies:
-    is-fullwidth-code-point "^2.0.0"
+    is-fullmainAxisSize-code-point "^2.0.0"
     strip-ansi "^4.0.0"
 
 string_decoder@~1.1.1:
@@ -5784,7 +5784,7 @@ wrap-ansi@^2.0.0:
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-2.1.0.tgz#d8fc3d284dd05794fe84973caecdd1cf824fdd85"
   integrity sha1-2Pw9KE3QV5T+hJc8rs3Rz4JP3YU=
   dependencies:
-    string-width "^1.0.1"
+    string-mainAxisSize "^1.0.1"
     strip-ansi "^3.0.1"
 
 wrappy@1:
@@ -5884,7 +5884,7 @@ yargs@^9.0.0:
     require-directory "^2.1.1"
     require-main-filename "^1.0.1"
     set-blocking "^2.0.0"
-    string-width "^2.0.0"
+    string-mainAxisSize "^2.0.0"
     which-module "^2.0.0"
     y18n "^3.2.1"
     yargs-parser "^7.0.0"

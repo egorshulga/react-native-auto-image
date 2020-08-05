@@ -45,24 +45,36 @@ const loadImageSize = (image) => {
   });
 };
 
-export const getImageSizeFitWidthFromCache = (image, toWidth, maxHeight) => {
+export const getImageSizeFitMainAxisSizeFromCache = (image, mainAxis, toMainAxisSize, maxCrossAxisSize) => {
   const size = getImageSizeFromCache(image);
   if (size) {
     const { width, height } = size;
     if (!width || !height) return { width: 0, height: 0 };
-    const scaledHeight = (toWidth * height) / width;
-    return {
-      width: toWidth,
-      height: scaledHeight > maxHeight ? maxHeight : scaledHeight
-    };
+    if (mainAxis === 'horizontal') {
+      const scaledHeight = (toMainAxisSize * height) / width;
+      return {
+        width: toMainAxisSize,
+        height: scaledHeight > maxCrossAxisSize ? maxCrossAxisSize : scaledHeight
+      };
+    } else {
+      const scaledWidth = (toMainAxisSize * width) / height;
+      return {
+        width: scaledWidth > maxCrossAxisSize ? maxCrossAxisSize : scaledWidth,
+        height: toMainAxisSize
+      };
+    }
   }
   return {};
 };
 
 const getImageSizeMaybeFromCache = async (image) => {
+  debugger;
   let size = getImageSizeFromCache(image);
+  debugger;
   if (!size) {
+    debugger;
     size = await loadImageSize(image);
+    debugger;
     if (typeof image === 'number') {
       cache.set(image, size);
     } else {
@@ -72,12 +84,21 @@ const getImageSizeMaybeFromCache = async (image) => {
   return size;
 };
 
-export const getImageSizeFitWidth = async (image, toWidth, maxHeight) => {
+export const getImageSizeFitMainAxisSize = async (image, mainAxis, toMainAxisSize, maxCrossAxisSize) => {
+  debugger;
   const { width, height } = await getImageSizeMaybeFromCache(image);
   if (!width || !height) return { width: 0, height: 0 };
-  const scaledHeight = (toWidth * height) / width;
-  return {
-    width: toWidth,
-    height: scaledHeight > maxHeight ? maxHeight : scaledHeight
-  };
+  if (mainAxis === 'horizontal') {
+    const scaledHeight = (toMainAxisSize * height) / width;
+    return {
+      width: toMainAxisSize,
+      height: scaledHeight > maxCrossAxisSize ? maxCrossAxisSize : scaledHeight
+    };
+  } else {
+    const scaledWidth = (toMainAxisSize * width) / height;
+    return {
+      width: scaledWidth > maxCrossAxisSize ? maxCrossAxisSize : scaledWidth,
+      height: toMainAxisSize
+    };
+  }
 };

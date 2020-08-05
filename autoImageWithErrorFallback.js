@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import AutoHeightImage from './autoHeightImage';
+import AutoImage from './AutoImage';
 
 function ErrorableImage(props) {
   const { source, fallbackSource, onError, ...rest } = props;
@@ -10,7 +10,7 @@ function ErrorableImage(props) {
   const shouldUseFallbackSource = error && fallbackSource;
 
   return (
-    <AutoHeightImage
+    <AutoImage
       source={shouldUseFallbackSource ? fallbackSource : source}
       onError={(_e) => {
         // if an error hasn't already been seen, try to load the error image

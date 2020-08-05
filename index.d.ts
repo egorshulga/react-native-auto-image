@@ -5,18 +5,19 @@ interface TSource {
   uri: string;
 }
 
-export interface AutoHeightImageProps extends ImageProps {
+export interface AutoImageProps extends ImageProps {
   source: number | TSource;
-  width: number;
-  maxHeight?: number;
+  mainAxisSize: number;
+  mainAxis?: 'horizontal' | 'vertical';
+  maxCrossAxisSize?: number;
   fallbackSource?: number | TSource;
-  onHeightChange?: (height: number) => void;
+  onCrossAxisSizeChange?: (crossAxisSize: number) => void;
   animated?: boolean;
 }
 
-declare class AutoHeightImage extends React.Component<
-  AutoHeightImageProps,
+declare class AutoImage extends React.Component<
+  AutoImageProps,
   any
 > {}
 
-export default AutoHeightImage;
+export default AutoImage;

@@ -1191,7 +1191,7 @@
     serve-static "^1.13.1"
     strip-ansi "^5.2.0"
     sudo-prompt "^9.0.0"
-    wcwidth "^1.0.1"
+    wcmainAxisSize "^1.0.1"
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
@@ -1854,11 +1854,11 @@ cli-truncate@^2.1.0:
   integrity sha512-n8fOixwDD6b/ObinzTrp1ZKFzbgvKZvuz/TvejnLn1aQfC6r52XEx85FmuC+3HI+JM7coBRXUvNqEU2PHVrHpg==
   dependencies:
     slice-ansi "^3.0.0"
-    string-width "^4.2.0"
+    string-mainAxisSize "^4.2.0"
 
-cli-width@^2.0.0:
+cli-mainAxisSize@^2.0.0:
   version "2.2.0"
-  resolved "https://registry.npmjs.org/cli-width/-/cli-width-2.2.0.tgz#ff19ede8a9a5e579324147b0c11f0fbcbabed639"
+  resolved "https://registry.npmjs.org/cli-mainAxisSize/-/cli-mainAxisSize-2.2.0.tgz#ff19ede8a9a5e579324147b0c11f0fbcbabed639"
   integrity sha1-/xnt6Kml5XkyQUewwR8PvLq+1jk=
 
 cliui@^5.0.0:
@@ -1866,7 +1866,7 @@ cliui@^5.0.0:
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-5.0.0.tgz#deefcfdb2e800784aa34f46fa08e06851c7bbbc5"
   integrity sha512-PYeGSEmmHM6zvoef2w8TPzlrnNpXIjTipYK780YswmIP9vjxmd6Y2a3CB2Ks6/AU8NHjZugXvo8w3oWM2qnwXA==
   dependencies:
-    string-width "^3.1.0"
+    string-mainAxisSize "^3.1.0"
     strip-ansi "^5.2.0"
     wrap-ansi "^5.1.0"
 
@@ -1875,7 +1875,7 @@ cliui@^6.0.0:
   resolved "https://registry.npmjs.org/cliui/-/cliui-6.0.0.tgz#511d702c0c4e41ca156d7d0e96021f23e13225b1"
   integrity sha512-t6wbgtoCXvAzst7QgXxJYqPt0usEfbgQdftEPbLL/cvv6HPE5VgvqCuAIDR0NgU52ds6rFwqrgakNLrHEjCbrQ==
   dependencies:
-    string-width "^4.2.0"
+    string-mainAxisSize "^4.2.0"
     strip-ansi "^6.0.0"
     wrap-ansi "^6.2.0"
 
@@ -3174,7 +3174,7 @@ inquirer@^3.0.6:
     ansi-escapes "^3.0.0"
     chalk "^2.0.0"
     cli-cursor "^2.1.0"
-    cli-width "^2.0.0"
+    cli-mainAxisSize "^2.0.0"
     external-editor "^2.0.4"
     figures "^2.0.0"
     lodash "^4.3.0"
@@ -3182,7 +3182,7 @@ inquirer@^3.0.6:
     run-async "^2.2.0"
     rx-lite "^4.0.8"
     rx-lite-aggregates "^4.0.8"
-    string-width "^2.1.0"
+    string-mainAxisSize "^2.1.0"
     strip-ansi "^4.0.0"
     through "^2.3.6"
 
@@ -3283,14 +3283,14 @@ is-finite@^1.0.0:
   resolved "https://registry.npmjs.org/is-finite/-/is-finite-1.1.0.tgz#904135c77fb42c0641d6aa1bcdbc4daa8da082f3"
   integrity sha512-cdyMtqX/BOqqNBBiKlIVkytNHm49MtMlYyn1zxzvJKWmFMlGzm+ry5BBfYyeY9YmNKbRSo/o7OX9w9ale0wg3w==
 
-is-fullwidth-code-point@^2.0.0:
+is-fullmainAxisSize-code-point@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz#a3b30a5c4f199183167aaab93beefae3ddfb654f"
+  resolved "https://registry.npmjs.org/is-fullmainAxisSize-code-point/-/is-fullmainAxisSize-code-point-2.0.0.tgz#a3b30a5c4f199183167aaab93beefae3ddfb654f"
   integrity sha1-o7MKXE8ZkYMWeqq5O+764937ZU8=
 
-is-fullwidth-code-point@^3.0.0:
+is-fullmainAxisSize-code-point@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz#f116f8064fe90b3f7844a38997c0b75051269f1d"
+  resolved "https://registry.npmjs.org/is-fullmainAxisSize-code-point/-/is-fullmainAxisSize-code-point-3.0.0.tgz#f116f8064fe90b3f7844a38997c0b75051269f1d"
   integrity sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==
 
 is-number@^3.0.0:
@@ -4618,7 +4618,7 @@ ora@^3.4.0:
     cli-spinners "^2.0.0"
     log-symbols "^2.2.0"
     strip-ansi "^5.2.0"
-    wcwidth "^1.0.1"
+    wcmainAxisSize "^1.0.1"
 
 os-tmpdir@^1.0.0, os-tmpdir@~1.0.2:
   version "1.0.2"
@@ -4687,7 +4687,7 @@ pad@^3.2.0:
   resolved "https://registry.yarnpkg.com/pad/-/pad-3.2.0.tgz#be7a1d1cb6757049b4ad5b70e71977158fea95d1"
   integrity sha512-2u0TrjcGbOjBTJpyewEl4hBO3OeX5wWue7eIFPzQTg6wFSvoaHcBTTUY5m+n0hd04gmTCPuY0kCpVIVuw5etwg==
   dependencies:
-    wcwidth "^1.0.1"
+    wcmainAxisSize "^1.0.1"
 
 parent-module@^1.0.0:
   version "1.0.1"
@@ -5584,7 +5584,7 @@ slice-ansi@^2.0.0:
   dependencies:
     ansi-styles "^3.2.0"
     astral-regex "^1.0.0"
-    is-fullwidth-code-point "^2.0.0"
+    is-fullmainAxisSize-code-point "^2.0.0"
 
 slice-ansi@^3.0.0:
   version "3.0.0"
@@ -5593,7 +5593,7 @@ slice-ansi@^3.0.0:
   dependencies:
     ansi-styles "^4.0.0"
     astral-regex "^2.0.0"
-    is-fullwidth-code-point "^3.0.0"
+    is-fullmainAxisSize-code-point "^3.0.0"
 
 slice-ansi@^4.0.0:
   version "4.0.0"
@@ -5602,7 +5602,7 @@ slice-ansi@^4.0.0:
   dependencies:
     ansi-styles "^4.0.0"
     astral-regex "^2.0.0"
-    is-fullwidth-code-point "^3.0.0"
+    is-fullmainAxisSize-code-point "^3.0.0"
 
 slide@^1.1.5:
   version "1.1.6"
@@ -5781,30 +5781,30 @@ string-argv@0.3.1:
   resolved "https://registry.yarnpkg.com/string-argv/-/string-argv-0.3.1.tgz#95e2fbec0427ae19184935f816d74aaa4c5c19da"
   integrity sha512-a1uQGz7IyVy9YwhqjZIZu1c8JO8dNIe20xBmSS6qu9kv++k3JGzCVmprbNN5Kn+BgzD5E7YYwg1CcjuJMRNsvg==
 
-string-width@^2.1.0:
+string-mainAxisSize@^2.1.0:
   version "2.1.1"
-  resolved "https://registry.npmjs.org/string-width/-/string-width-2.1.1.tgz#ab93f27a8dc13d28cac815c462143a6d9012ae9e"
+  resolved "https://registry.npmjs.org/string-mainAxisSize/-/string-mainAxisSize-2.1.1.tgz#ab93f27a8dc13d28cac815c462143a6d9012ae9e"
   integrity sha512-nOqH59deCq9SRHlxq1Aw85Jnt4w6KvLKqWVik6oA9ZklXLNIOlqg4F2yrT1MVaTjAqvVwdfeZ7w7aCvJD7ugkw==
   dependencies:
-    is-fullwidth-code-point "^2.0.0"
+    is-fullmainAxisSize-code-point "^2.0.0"
     strip-ansi "^4.0.0"
 
-string-width@^3.0.0, string-width@^3.1.0:
+string-mainAxisSize@^3.0.0, string-mainAxisSize@^3.1.0:
   version "3.1.0"
-  resolved "https://registry.yarnpkg.com/string-width/-/string-width-3.1.0.tgz#22767be21b62af1081574306f69ac51b62203961"
+  resolved "https://registry.yarnpkg.com/string-mainAxisSize/-/string-mainAxisSize-3.1.0.tgz#22767be21b62af1081574306f69ac51b62203961"
   integrity sha512-vafcv6KjVZKSgz06oM/H6GDBrAtz8vdhQakGjFIvNrHA6y3HCF1CInLy+QLq8dTJPQ1b+KDUqDFctkdRW44e1w==
   dependencies:
     emoji-regex "^7.0.1"
-    is-fullwidth-code-point "^2.0.0"
+    is-fullmainAxisSize-code-point "^2.0.0"
     strip-ansi "^5.1.0"
 
-string-width@^4.1.0, string-width@^4.2.0:
+string-mainAxisSize@^4.1.0, string-mainAxisSize@^4.2.0:
   version "4.2.0"
-  resolved "https://registry.npmjs.org/string-width/-/string-width-4.2.0.tgz#952182c46cc7b2c313d1596e623992bd163b72b5"
+  resolved "https://registry.npmjs.org/string-mainAxisSize/-/string-mainAxisSize-4.2.0.tgz#952182c46cc7b2c313d1596e623992bd163b72b5"
   integrity sha512-zUz5JD+tgqtuDjMhwIg5uFVV3dtqZ9yQJlZVfq4I01/K5Paj5UHj7VyrQOJvzawSVlKpObApbfD0Ed6yJc+1eg==
   dependencies:
     emoji-regex "^8.0.0"
-    is-fullwidth-code-point "^3.0.0"
+    is-fullmainAxisSize-code-point "^3.0.0"
     strip-ansi "^6.0.0"
 
 string_decoder@^1.1.1:
@@ -6224,9 +6224,9 @@ walker@^1.0.7, walker@~1.0.5:
   dependencies:
     makeerror "1.0.x"
 
-wcwidth@^1.0.1:
+wcmainAxisSize@^1.0.1:
   version "1.0.1"
-  resolved "https://registry.npmjs.org/wcwidth/-/wcwidth-1.0.1.tgz#f0b0dcf915bc5ff1528afadb2c0e17b532da2fe8"
+  resolved "https://registry.npmjs.org/wcmainAxisSize/-/wcmainAxisSize-1.0.1.tgz#f0b0dcf915bc5ff1528afadb2c0e17b532da2fe8"
   integrity sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g=
   dependencies:
     defaults "^1.0.3"
@@ -6271,7 +6271,7 @@ wrap-ansi@^5.1.0:
   integrity sha512-QC1/iN/2/RPVJ5jYK8BGttj5z83LmSKmvbvrXPNCLZSEb32KKVDJDl/MOt2N01qU2H/FkzEa9PKto1BqDjtd7Q==
   dependencies:
     ansi-styles "^3.2.0"
-    string-width "^3.0.0"
+    string-mainAxisSize "^3.0.0"
     strip-ansi "^5.0.0"
 
 wrap-ansi@^6.2.0:
@@ -6280,7 +6280,7 @@ wrap-ansi@^6.2.0:
   integrity sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==
   dependencies:
     ansi-styles "^4.0.0"
-    string-width "^4.1.0"
+    string-mainAxisSize "^4.1.0"
     strip-ansi "^6.0.0"
 
 wrappy@1:
@@ -6404,7 +6404,7 @@ yargs@^14.2.0:
     require-directory "^2.1.1"
     require-main-filename "^2.0.0"
     set-blocking "^2.0.0"
-    string-width "^3.0.0"
+    string-mainAxisSize "^3.0.0"
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^15.0.1"
@@ -6421,7 +6421,7 @@ yargs@^15.1.0:
     require-directory "^2.1.1"
     require-main-filename "^2.0.0"
     set-blocking "^2.0.0"
-    string-width "^4.2.0"
+    string-mainAxisSize "^4.2.0"
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^18.1.2"
@@ -6438,7 +6438,7 @@ yargs@^15.3.1:
     require-directory "^2.1.1"
     require-main-filename "^2.0.0"
     set-blocking "^2.0.0"
-    string-width "^4.2.0"
+    string-mainAxisSize "^4.2.0"
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^18.1.2"

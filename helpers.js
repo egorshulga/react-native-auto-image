@@ -1,2 +1,2 @@
 export const NOOP = () => {};
-export const DEFAULT_HEIGHT = 0;
+export const DEFAULT_SIZE = 0;

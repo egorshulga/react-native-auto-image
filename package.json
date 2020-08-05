@@ -1,7 +1,7 @@
 {
-  "name": "react-native-auto-height-image",
+  "name": "react-native-auto-image",
   "version": "3.2.2",
-  "description": "react-native auto height image",
+  "description": "react-native auto width & height image",
   "main": "./index.js",
   "typings": "./index.d.ts",
   "scripts": {
@@ -10,12 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:vivaxy/react-native-auto-height-image.git"
+    "url": "https://github.com/egorshulga/react-native-auto-image.git"
   },
   "keywords": [
     "react-native",
     "image",
     "auto-height",
+    "auto-wudth",
     "react",
     "images"
   ],
@@ -51,8 +52,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "pre-commit": "lint-staged"
     }
   },
   "commitlint": {

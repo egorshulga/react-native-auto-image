@@ -1,22 +1,22 @@
-# react-native-auto-height-image
+# react-native-auto-crossAxisSize-image
 
 Initialized by [vivaxy/gt-npm-package](https://github.com/vivaxy/gt-npm-package)
 
-[![NPM Version](http://img.shields.io/npm/v/react-native-auto-height-image.svg?style=flat-square)](https://www.npmjs.com/package/react-native-auto-height-image)
-[![NPM Downloads](https://img.shields.io/npm/dt/react-native-auto-height-image.svg?style=flat-square)](https://www.npmjs.com/package/react-native-auto-height-image)
-[![MIT License](https://img.shields.io/npm/l/react-native-auto-height-image.svg?style=flat-square)](./LICENSE)
+[![NPM Version](http://img.shields.io/npm/v/react-native-auto-crossAxisSize-image.svg?style=flat-square)](https://www.npmjs.com/package/react-native-auto-crossAxisSize-image)
+[![NPM Downloads](https://img.shields.io/npm/dt/react-native-auto-crossAxisSize-image.svg?style=flat-square)](https://www.npmjs.com/package/react-native-auto-crossAxisSize-image)
+[![MIT License](https://img.shields.io/npm/l/react-native-auto-crossAxisSize-image.svg?style=flat-square)](./LICENSE)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
-[![Financial Contributors on Open Collective](https://opencollective.com/react-native-auto-height-image/all/badge.svg?label=financial+contributors)](https://opencollective.com/react-native-auto-height-image)
+[![Financial Contributors on Open Collective](https://opencollective.com/react-native-auto-crossAxisSize-image/all/badge.svg?label=financial+contributors)](https://opencollective.com/react-native-auto-crossAxisSize-image)
 
-This component provides you a simple way to load a remote image and automatically set `Image` height to the image dimension which fits the provided width.
+This component provides you a simple way to load a remote image and automatically set `Image` crossAxisSize to the image dimension which fits the provided mainAxisSize.
 
-ReactNative `Image` component needs users to set both `width` and `height` props.
+ReactNative `Image` component needs users to set both `mainAxisSize` and `crossAxisSize` props.
 
 ## Installation
 
-`yarn add react-native-auto-height-image`
+`yarn add react-native-auto-crossAxisSize-image`
 
-`npm install react-native-auto-height-image`
+`npm install react-native-auto-crossAxisSize-image`
 
 ## Usage
 
@@ -24,7 +24,7 @@ Use local or remote files:
 
 ```js
 import React, { Component } from 'react';
-import AutoHeightImage from 'react-native-auto-height-image';
+import AutoImage from 'react-native-auto-crossAxisSize-image';
 
 import image from 'gallifrey-falls.png';
 
@@ -33,13 +33,13 @@ export default class Demo extends Component {
     return (
       <View>
 
-        <AutoHeightImage
-          width={100}
+        <AutoImage
+          mainAxisSize={100}
           source={image}
         />
 
-        <AutoHeightImage
-          width={100}
+        <AutoImage
+          mainAxisSize={100}
           source={{uri: 'http://placehold.it/350x150'}}
         />
 
@@ -53,15 +53,15 @@ You can even specify fallback images for when the source fails to load:
 
 ```js
 import React, { Component } from 'react';
-import AutoHeightImage from 'react-native-auto-height-image';
+import AutoImage from 'react-native-auto-crossAxisSize-image';
 
 import image from 'gallifrey-falls.png';
 
 export default class Demo extends Component {
   render() {
     return (
-      <AutoHeightImage
-        width={100}
+      <AutoImage
+        mainAxisSize={100}
         source={{uri: 'https://vivaxy.github.io/404'}}
         fallbackSource={image}
       />
@@ -74,11 +74,11 @@ export default class Demo extends Component {
 
 | name               | type             | isRequired    | default           | description                                                           |
 | ---                | ---              | ---           | ---               | ---                                                                   |
-| `width`            | number           | ✔             | N/A               | image width to fit                                                    |
-| `maxHeight`            | number           | ✖             | `Infinity`               | image max height                                                    |
+| `mainAxisSize`            | number           | ✔             | N/A               | image mainAxisSize to fit                                                    |
+| `maxCrossAxisSize`            | number           | ✖             | `Infinity`               | image max crossAxisSize                                                    |
 | `source`           | number or object | ✔             | N/A               | local (i.e. require/import) or remote image ({uri: '...'})            |
 | `fallbackSource`   | number or object | ✖             | N/A               | local (i.e. require/import) or remote image ({uri: '...'})            |
-| `onHeightChange`   | func             | ✖             | `(height) => {}`    | called when updating image height, the argument `height` might be `0` |
+| `onCrossAxisSizeChange`   | func             | ✖             | `(crossAxisSize) => {}`    | called when updating image crossAxisSize, the argument `crossAxisSize` might be `0` |
 | `animated`        | bool              | ✖              | `false`               | Use `Animated.Image` instead of `Image` |
 
 Other image props except `resizeMode` are accepted.
@@ -100,21 +100,21 @@ Other image props except `resizeMode` are accepted.
 ### Code Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/vivaxy/react-native-auto-height-image/graphs/contributors"><img src="https://opencollective.com/react-native-auto-height-image/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/vivaxy/react-native-auto-crossAxisSize-image/graphs/contributors"><img src="https://opencollective.com/react-native-auto-crossAxisSize-image/contributors.svg?mainAxisSize=890&button=false" /></a>
 
 ### Financial Contributors
 
-Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/react-native-auto-height-image/contribute)]
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/react-native-auto-crossAxisSize-image/contribute)]
 
 #### Individuals
 
-<a href="https://opencollective.com/react-native-auto-height-image"><img src="https://opencollective.com/react-native-auto-height-image/individuals.svg?width=890"></a>
+<a href="https://opencollective.com/react-native-auto-crossAxisSize-image"><img src="https://opencollective.com/react-native-auto-crossAxisSize-image/individuals.svg?mainAxisSize=890"></a>
 
 #### Organizations
 
-Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/react-native-auto-height-image/contribute)]
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/react-native-auto-crossAxisSize-image/contribute)]
 
-<a href="https://opencollective.com/react-native-auto-height-image"><img src="https://opencollective.com/react-native-auto-height-image/organization.svg?width=890"></a>
+<a href="https://opencollective.com/react-native-auto-crossAxisSize-image"><img src="https://opencollective.com/react-native-auto-crossAxisSize-image/organization.svg?mainAxisSize=890"></a>
 
 ## Related Projects
 
