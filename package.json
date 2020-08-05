@@ -1,6 +1,6 @@
 {
   "name": "react-native-auto-image",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "description": "react-native auto width & height image",
   "main": "./index.js",
   "typings": "./index.d.ts",
