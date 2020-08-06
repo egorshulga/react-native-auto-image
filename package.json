@@ -1,7 +1,7 @@
 {
-  "name": "react-native-auto-image",
-  "version": "3.2.3",
-  "description": "react-native auto width & height image",
+  "name": "react-native-autosize-image",
+  "version": "0.1.0",
+  "description": "react-native image width auto width or height computation",
   "main": "./index.js",
   "typings": "./index.d.ts",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/egorshulga/react-native-auto-image.git"
+    "url": "https://github.com/egorshulga/react-native-autosize-image.git"
   },
   "keywords": [
     "react-native",
