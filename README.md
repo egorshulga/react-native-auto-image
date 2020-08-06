@@ -1,12 +1,12 @@
-# react-native-auto-image
+# react-native-autosize-image
 
 Inspired by [vivaxy/react-native-auto-height-image](https://github.com/vivaxy/react-native-auto-height-image)
 
-[![NPM Version](http://img.shields.io/npm/v/react-native-auto-image.svg?style=flat-square)](https://www.npmjs.com/package/react-native-auto-image)
-[![NPM Downloads](https://img.shields.io/npm/dt/react-native-auto-image.svg?style=flat-square)](https://www.npmjs.com/package/react-native-auto-image)
-[![MIT License](https://img.shields.io/npm/l/react-native-auto-image.svg?style=flat-square)](./LICENSE)
+[![NPM Version](http://img.shields.io/npm/v/react-native-autosize-image.svg?style=flat-square)](https://www.npmjs.com/package/react-native-autosize-image)
+[![NPM Downloads](https://img.shields.io/npm/dt/react-native-autosize-image.svg?style=flat-square)](https://www.npmjs.com/package/react-native-autosize-image)
+[![MIT License](https://img.shields.io/npm/l/react-native-autosize-image.svg?style=flat-square)](./LICENSE)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
-[![Financial Contributors on Open Collective](https://opencollective.com/react-native-auto-image/all/badge.svg?label=financial+contributors)](https://opencollective.com/react-native-auto-image)
+[![Financial Contributors on Open Collective](https://opencollective.com/react-native-autosize-image/all/badge.svg?label=financial+contributors)](https://opencollective.com/react-native-autosize-image)
 
 This component provides you a simple way to load a remote image and automatically set `Image` crossAxisSize to the image dimension which fits the provided mainAxisSize.
 
@@ -14,9 +14,9 @@ ReactNative `Image` component needs users to set both `mainAxisSize` and `crossA
 
 ## Installation
 
-`yarn add react-native-auto-image`
+`yarn add react-native-autosize-image`
 
-`npm install react-native-auto-image`
+`npm install react-native-autosize-image`
 
 ## Usage
 
@@ -24,7 +24,7 @@ Use local or remote files:
 
 ```js
 import React, { Component } from 'react';
-import AutoImage from 'react-native-auto-image';
+import AutoImage from 'react-native-autosize-image';
 
 import image from 'gallifrey-falls.png';
 
@@ -55,7 +55,7 @@ You can even specify fallback images for when the source fails to load:
 
 ```js
 import React, { Component } from 'react';
-import AutoImage from 'react-native-auto-image';
+import AutoImage from 'react-native-autosize-image';
 
 import image from 'gallifrey-falls.png';
 
