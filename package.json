@@ -1,6 +1,6 @@
 {
   "name": "react-native-autosize-image",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "react-native image width auto width or height computation",
   "main": "./index.js",
   "typings": "./index.d.ts",
