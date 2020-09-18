@@ -1,23 +1,16 @@
 import * as React from 'react';
-import { ImageProps } from 'react-native';
-
-interface TSource {
-  uri: string;
-}
+import { ImageProps, ImageSourcePropType } from 'react-native';
 
 export interface AutoImageProps extends ImageProps {
-  source: number | TSource;
+  source: ImageSourcePropType;
   mainAxisSize: number;
   mainAxis?: 'horizontal' | 'vertical';
   maxCrossAxisSize?: number;
-  fallbackSource?: number | TSource;
+  fallbackSource?: ImageSourcePropType;
   onCrossAxisSizeChange?: (crossAxisSize: number) => void;
   animated?: boolean;
 }
 
-declare class AutoImage extends React.Component<
-  AutoImageProps,
-  any
-> {}
+declare class AutoImage extends React.Component<AutoImageProps, any> {}
 
 export default AutoImage;
