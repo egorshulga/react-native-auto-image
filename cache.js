@@ -45,7 +45,12 @@ const loadImageSize = (image) => {
   });
 };
 
-export const getImageSizeFitMainAxisSizeFromCache = (image, mainAxis, toMainAxisSize, maxCrossAxisSize) => {
+export const getImageSizeFitMainAxisSizeFromCache = (
+  image,
+  mainAxis,
+  toMainAxisSize,
+  maxCrossAxisSize
+) => {
   const size = getImageSizeFromCache(image);
   if (size) {
     const { width, height } = size;
@@ -54,7 +59,8 @@ export const getImageSizeFitMainAxisSizeFromCache = (image, mainAxis, toMainAxis
       const scaledHeight = (toMainAxisSize * height) / width;
       return {
         width: toMainAxisSize,
-        height: scaledHeight > maxCrossAxisSize ? maxCrossAxisSize : scaledHeight
+        height:
+          scaledHeight > maxCrossAxisSize ? maxCrossAxisSize : scaledHeight
       };
     } else {
       const scaledWidth = (toMainAxisSize * width) / height;
@@ -68,13 +74,9 @@ export const getImageSizeFitMainAxisSizeFromCache = (image, mainAxis, toMainAxis
 };
 
 const getImageSizeMaybeFromCache = async (image) => {
-  debugger;
   let size = getImageSizeFromCache(image);
-  debugger;
   if (!size) {
-    debugger;
     size = await loadImageSize(image);
-    debugger;
     if (typeof image === 'number') {
       cache.set(image, size);
     } else {
@@ -84,8 +86,12 @@ const getImageSizeMaybeFromCache = async (image) => {
   return size;
 };
 
-export const getImageSizeFitMainAxisSize = async (image, mainAxis, toMainAxisSize, maxCrossAxisSize) => {
-  debugger;
+export const getImageSizeFitMainAxisSize = async (
+  image,
+  mainAxis,
+  toMainAxisSize,
+  maxCrossAxisSize
+) => {
   const { width, height } = await getImageSizeMaybeFromCache(image);
   if (!width || !height) return { width: 0, height: 0 };
   if (mainAxis === 'horizontal') {
